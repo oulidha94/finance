@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finance</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1c1e22;
+    --surface: #24272c;
+    --border: #34383f;
+    --accent: #c9a86a;
+    --text: #eceae4;
+    --text-muted: #8b8f96;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    padding: 48px 24px 32px;
+    text-align: center;
+  }
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: var(--accent);
+    letter-spacing: -0.3px;
+  }
+  header p {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 6px;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 24px 48px;
+    display: grid;
+    gap: 14px;
+  }
+  a.tool-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.15s, transform 0.1s;
+  }
+  a.tool-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  .tool-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(201,168,106,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .tool-body h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text);
+  }
+  .tool-body p {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin-top: 3px;
+  }
+  .tool-card .arrow {
+    margin-left: auto;
+    color: var(--text-muted);
+    font-size: 16px;
+  }
+  .placeholder {
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12.5px;
+  }
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Finance</h1>
+  <p>Accès privé — outils personnels</p>
+</header>
+
+<main>
+  <a class="tool-card" href="https://pharma.samibenmansour.com">
+    <div class="tool-icon">💊</div>
+    <div class="tool-body">
+      <h2>Pharma</h2>
+      <p>Charges et congés de l'officine</p>
+    </div>
+    <div class="arrow">→</div>
+  </a>
+
+  <a class="tool-card" href="mizania.html">
+    <div class="tool-icon">📈</div>
+    <div class="tool-body">
+      <h2>Mizania</h2>
+      <p>Tableau de bord financier personnel</p>
+    </div>
+    <div class="arrow">→</div>
+  </a>
+
+  <div class="placeholder">Prochains outils à venir ici</div>
+</main>
+
+<footer>finance.samibmansour.com</footer>
+
+</body>
+</html>
